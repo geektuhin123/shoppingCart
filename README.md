@@ -2,8 +2,6 @@
 
 ## Steps to run the test
 
-## Building Source
-
 1.  Clone this repository
 2.  Navigate to the root folder
 3.  Run : `npm run test:step1` to execute step1 test cases
