@@ -1,5 +1,4 @@
 const { ShoppingCart } = require("../cart");
-const common = require("../common/index");
 const assert = require("chai").assert;
 
 describe("ShoppingCart", function() {
