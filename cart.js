@@ -10,6 +10,7 @@ class ShoppingCart {
   }
 
   addProduct(input, quantity) {
+    common.validateInput(input, quantity);
     const product = Object.assign({}, input);
     const id = uuidv4();
     product.collectivePrice = common.getCollectivePrice(
@@ -27,6 +28,7 @@ class ShoppingCart {
     this.products = [];
     this.totalQuantity = 0;
     this.totalPrice = 0;
+    this.salesTax = 0;
   }
 
   removeProduct(id) {
@@ -76,8 +78,6 @@ class ShoppingCart {
       { total: this.getTotalPrice(), quantity: this.getQuantity() }
     );
   }
-
-  getTotalSalesTax() {}
 }
 
 module.exports = {
