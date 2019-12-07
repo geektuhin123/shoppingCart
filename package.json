@@ -1,0 +1,16 @@
+{
+  "name": "shopping_cart",
+  "version": "1.0.0",
+  "description": "The shopping cart management allows user to add products to a shopping cart, calculate the total price and then the sales tax the items contained in the cart.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "5.2.0",
+    "uuid-v4": "^0.1.0"
+  }
+}
