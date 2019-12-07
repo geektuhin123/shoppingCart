@@ -4,7 +4,12 @@
   "description": "The shopping cart management allows user to add products to a shopping cart, calculate the total price and then the sales tax the items contained in the cart.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test:step1": "npx mocha test/step1.js",
+    "test:step2": "npx mocha test/step2.js",
+    "test:step3": "npx mocha test/step3.js",
+    "test:common": "npx mocha test/common.js",
+    "test:all": "npx mocha test",
+    "test": "npx mocha test"
   },
   "author": "",
   "license": "ISC",
